@@ -34,10 +34,34 @@ conditions so it can even give info on inflation.
 \end{equation}
 
 \subsubsection{Bending of Light}
-\subsubsection{Newtonian Lens}
-Contrary to the common belief that bending of light is unique to GR, classical Newtonian mechanics actually allows for the bending of light. To illustrate this 
-consider a mass $M$ located at the origin of the cartesian plane and a particle propagating along the $x=b$ line.
-We note that there will occur some momentum transfer due to gravity. The particle starts off with momentum $(p,0)$ and ends up with momentum $(p_x,p_y)$.
-Therefore, the particle path is deflected by some angle $\Delta \theta$. The deflection angle is simply given by $\sin(\Delta \theta) = \frac{p_y}{\sqrt{p_x^2+p_y^2}}$.
-\par For very small deflections
 
+\subsubsection{Newtonian Lens}
+
+Contrary to the common belief that bending of light is unique to GR, classical Newtonian mechanics actually 
+allows for the bending of light. To illustrate this 
+consider a mass $M$ located at the origin of the cartesian plane and a particle propagating along the $x=b$ line.
+We note that there will occur some momentum transfer due to gravity. The particle starts off with 
+momentum $(p,0)$ and ends up with momentum $(p_x,p_y)$.
+Therefore, the particle path is deflected by some angle $\Delta \theta$. The deflection angle is 
+simply given by $\sin(\Delta \theta) = \frac{p_y}{\sqrt{p_x^2+p_y^2}}$.
+\par For very small deflections we have $p\approx p_x >> p_y$ and $\Delta \theta << 1$. Therefore $\Delta \theta
+\approx \frac{p_y}{p_x}$. We can now consider the differntial effect on momentum in the y direction along the 
+entire path. we have $\frac{dp_y}{p_x} = \frac{1}{px} dx \frac{dp_y}{dx}$. Therefore we can find the deflection
+angle by 
+
+\begin{equation}
+  \begin{split}
+  \Delta \theta &= -\frac{1}{p_x} \int dx \frac{dp_y}{dx} \\
+  &= -\frac{1}{cp_x} \int dx \frac{dp_y}{dt} \\ 
+  &= \frac{2GM}{c^2b}
+  \end{split}  
+  \label{newtonbend}
+\end{equation}
+
+We note that the mass of the particle cancels out of the deflection equation. Therefore this equation applies
+for massless particles i.e. light. Therefore \autoref{newtonbend} provides a newtonian description for the 
+bending of light.
+
+\subsubsection{General Relativistic Bending of Light}
+  
+  
