@@ -1,0 +1,70 @@
+\subsection{Notes}
+\begin{enumerate}
+    \item Motivate The Problem Cosmo
+    \item Introduce The Theory Cosmo + Lensing
+    \item Explain How Theory Solves The Problem
+    \item Current Results/ Experiments
+    \item Explain Problems with WeakLensing
+    \item Summarise
+\end{enumerate}
+
+Discuss probing the large scale universe with CMB, supernvae, clustering
+and lensing. 
+Note weak lensing makes no assumptions about the nature of dark matter
+and no assumptions about relationship between visible matter and mass therefore
+it provides a directly measured mass distribution in the universe as a function of 
+redshift. Therefore we can get info on DE and DM directly. It is sensitive to intial
+conditions so it can even give info on inflation. 
+
+
+\subsection{Bending of Light}
+The fundamental concept on which weak lensing is built is gravity's ability to alter the path of a photon.
+In this section we review the theory behind the bending of light necessary to develop the weak lensing formalism.
+\subsubsection{Newtonian Lens}
+
+It is a common misconception that the gravitational bending of light is an exclusive property of GR.
+However, gravity induced alterations to a photon's path are predicted by newtonian mechanics \cite{lensingbook}. To illustrate this 
+consider a mass $M$ located at the origin of the cartesian plane and a corpuscle(newtonian photon) 
+propagating along the $x=b$ line. 
+Newton's second law predicts that the presence of the point mass will result in a momentum transfer
+between the two objects. If the corpuscle starts with 
+momentum $(p,0)$ then it will end up with momentum $(p_x,p_y)$.
+Therefore, the particle path is deflected by some angle $\Delta \theta$. The deflection angle is 
+simply given by 
+
+\begin{equation}
+  \sin(\Delta \theta) = \frac{p_y}{\sqrt{p_x^2+p_y^2}}
+  \label{deflectionnewton}
+\end{equation}
+
+\par For very small deflections we have $p\approx p_x >> p_y$ and $\Delta \theta << 1$. 
+Therefore \autoref{deflectionnewton} simplifies to $\Delta \theta
+\approx \frac{p_y}{p_x}$. We now consider the infinitesimal deflection along the entire path of the photon with
+$d\Delta \theta = \frac{dp_y}{p_x} = \frac{1}{px} dx \frac{dp_y}{dx}$. Therefore, we can find the deflection
+angle by 
+
+\begin{equation}
+  \begin{split}
+  \Delta \theta_N &= -\frac{1}{p_x} \int dx \frac{dp_y}{dx} \\
+  &= -\frac{1}{cp_x} \int dx \frac{dp_y}{dt} = -\frac{1}{cp_x} \int F_y dx \\ 
+  &= \frac{2GM}{c^2b}
+  \end{split}  
+  \label{newtonbend}
+\end{equation}
+
+We note that the mass of the corpuscle cancels out of the deflection equation. Therefore this equation applies
+for massless particles i.e. photons. Therefore \autoref{newtonbend} provides a newtonian description for the 
+bending of light \cite{lensingbook}.
+
+\subsubsection{General Relativistic Bending of Light}
+The Einstein's field equations in the presence of a charge free point mass is uniquely solved by 
+the Schwarzchild Metric 
+\cite{}.
+
+\begin{equation}
+  \Delta \theta = 2\Delta \theta_N=\frac{4GM}{c^2b}
+  \label{grbend}
+\end{equation}
+
+\subsection{Lensing Formalism}
+\cite{basicLens}

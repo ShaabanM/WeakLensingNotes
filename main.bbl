@@ -16,6 +16,11 @@ Chiaki {Hikage}, Masamune {Oguri}, Takashi {Hamana}, Surhud {More}, Rachel
 \newblock {\em Publications of the Astronomical Society of Japan}, page~22, Mar
   2019.
 
+\bibitem{basicLens}
+Konrad {Kuijken}.
+\newblock {The Basics of Lensing}.
+\newblock {\em arXiv e-prints}, pages astro--ph/0304438, Apr 2003.
+
 \bibitem{rachel_2018}
 Rachel {Mandelbaum}.
 \newblock {Weak Lensing for Precision Cosmology}.
@@ -30,6 +35,11 @@ Richard {Massey}, Henk {Hoekstra}, Thomas {Kitching}, Jason {Rhodes}, Mark
 \newblock {Origins of weak lensing systematics, and requirements on future
   instrumentation (or knowledge of instrumentation)}.
 \newblock {\em mnras}, 429:661--678, Feb 2013.
+
+\bibitem{lensingbook}
+G.~{Meylan}, P.~{Jetzer}, P.~{North}, P.~{Schneider}, C.~S. {Kochanek}, and
+  J.~{Wambsganss}, editors.
+\newblock {\em {Gravitational Lensing: Strong, Weak and Micro}}, 2006.
 
 \bibitem{general_2013}
 David~H. {Weinberg}, Michael~J. {Mortonson}, Daniel~J. {Eisenstein},
