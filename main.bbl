@@ -1,4 +1,25 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{nobel}
+The nobel prize in physics 2011 - advanced information. nobelprize.org., 2014.
+
+\bibitem{planck}
+P.~A.~R. Ade et~al.
+\newblock {Planck 2013 results. I. Overview of products and scientific
+  results}.
+\newblock {\em Astron. Astrophys.}, 571:A1, 2014.
+
+\bibitem{pathfinder}
+K.~{Bandura}, G.~E. {Addison}, M.~{Amiri}, J.~R. {Bond}, D.~{Campbell-Wilson},
+  L.~{Connor}, J.-F. {Cliche}, G.~{Davis}, M.~{Deng}, N.~{Denman}, M.~{Dobbs},
+  M.~{Fandino}, K.~{Gibbs}, A.~{Gilbert}, M.~{Halpern}, D.~{Hanna}, A.~D.
+  {Hincks}, G.~{Hinshaw}, C.~{H{\"o}fer}, P.~{Klages}, T.~L. {Landecker},
+  K.~{Masui}, J.~{Mena Parra}, L.~B. {Newburgh}, U.-l. {Pen}, J.~B. {Peterson},
+  A.~{Recnik}, J.~R. {Shaw}, K.~{Sigurdson}, M.~{Sitwell}, G.~{Smecher},
+  R.~{Smegal}, K.~{Vanderlinde}, and D.~{Wiebe}.
+\newblock {Canadian Hydrogen Intensity Mapping Experiment (CHIME) pathfinder}.
+\newblock In {\em Ground-based and Airborne Telescopes V}, volume 9145, page
+  914522, July 2014.
 
 \bibitem{Subaru_2019}
 Chiaki {Hikage}, Masamune {Oguri}, Takashi {Hamana}, Surhud {More}, Rachel
@@ -15,6 +36,12 @@ Chiaki {Hikage}, Masamune {Oguri}, Takashi {Hamana}, Surhud {More}, Rachel
   Suprime-Cam first-year data}.
 \newblock {\em Publications of the Astronomical Society of Japan}, page~22, Mar
   2019.
+
+\bibitem{hoekstra}
+H.~{Hoekstra} and B.~{Jain}.
+\newblock {Weak Gravitational Lensing and Its Cosmological Applications}.
+\newblock {\em Annual Review of Nuclear and Particle Science}, 58:99--123,
+  November 2008.
 
 \bibitem{basicLens}
 Konrad {Kuijken}.
@@ -40,6 +67,11 @@ Richard {Massey}, Henk {Hoekstra}, Thomas {Kitching}, Jason {Rhodes}, Mark
 G.~{Meylan}, P.~{Jetzer}, P.~{North}, P.~{Schneider}, C.~S. {Kochanek}, and
   J.~{Wambsganss}, editors.
 \newblock {\em {Gravitational Lensing: Strong, Weak and Micro}}, 2006.
+
+\bibitem{peebles}
+P.~J.~E. Peebles and Bharat Ratra.
+\newblock {The Cosmological constant and dark energy}.
+\newblock {\em Rev. Mod. Phys.}, 75:559--606, 2003.
 
 \bibitem{GR1}
 A.W. Peet.
