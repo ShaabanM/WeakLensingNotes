@@ -1,43 +1,98 @@
-\section{Notes}
-In this section I present some general notes on weak lensing. 
+% \subsection{Notes}
+% \begin{enumerate}
+%     \item Motivate The Problem Cosmo
+%     \item Introduce The Theory Cosmo + Lensing
+%     \item Explain How Theory Solves The Problem
+%     \item Current Results/ Experiments
+%     \item Explain Problems with WeakLensing
+%     \item Summarise
+% \end{enumerate}
 
-\subsection{Talk Structure:}
-\begin{enumerate}
-    \item Motivate The Problem Cosmo
-    \item Introduce The Theory Cosmo + Lensing
-    \item Explain How Theory Solves The Problem
-    \item Current Results/ Experiments
-    \item Explain Problems with WeakLensing
-    \item Summarise
-\end{enumerate}
-
-\subsubsection{Motivate The Problem}
-Discuss probing the large scale universe with CMB, supernvae, clustering
-and lensing. 
-Note weak lensing makes no assumptions about the nature of dark matter
-and no assumptions about relationship between visible matter and mass therefore
-it provides a directly measured mass distribution in the universe as a function of 
-redshift. Therefore we can get info on DE and DM directly. It is sensitive to intial
-conditions so it can even give info on inflation. 
-
-\subsection{The Basics of Lensing Arxiv:0304438}
+% Discuss probing the large scale universe with CMB, supernvae, clustering
+% and lensing. 
+% Note weak lensing makes no assumptions about the nature of dark matter
+% and no assumptions about relationship between visible matter and mass therefore
+% it provides a directly measured mass distribution in the universe as a function of 
+% redshift. Therefore we can get info on DE and DM directly. It is sensitive to intial
+% conditions so it can even give info on inflation. 
 
 
-
-\subsection{Random Lecture}
-\begin{equation}
-    \vec{\beta} = \vec{\theta} - \vec{\alpha}(\vec{\theta})
-\end{equation}
-
-\begin{equation}
-  \vec{\alpha}(\vec{\theta}) = \frac{1}{\pi}  \int d^2\theta'  \kappa(\vec{\theta'}) \frac{\vec{\theta}-\vec{\theta'}}{|\vec{\theta}-\vec{\theta'}|^2}
-\end{equation}
-
-\subsubsection{Bending of Light}
+\subsection{Bending of Light}
+The fundamental concept on which weak lensing is built is gravity's ability to alter the path of a photon.
+In this section we review the theory behind the bending of light necessary to develop the weak lensing formalism.
 \subsubsection{Newtonian Lens}
-Contrary to the common belief that bending of light is unique to GR, classical Newtonian mechanics actually allows for the bending of light. To illustrate this 
-consider a mass $M$ located at the origin of the cartesian plane and a particle propagating along the $x=b$ line.
-We note that there will occur some momentum transfer due to gravity. The particle starts off with momentum $(p,0)$ and ends up with momentum $(p_x,p_y)$.
-Therefore, the particle path is deflected by some angle $\Delta \theta$. The deflection angle is simply given by $\sin(\Delta \theta) = \frac{p_y}{\sqrt{p_x^2+p_y^2}}$.
-\par For very small deflections
+\label{subsec:newtonlens}
 
+It is a common misconception that the gravitational bending of light is an exclusive property of GR.
+However, gravity induced alterations to a photon's path are predicted by newtonian mechanics \cite{lensingbook}. To illustrate this 
+consider a mass $M$ located at the origin of the cartesian plane and a corpuscle(newtonian photon) 
+propagating along the $x=b$ line (in this context $b$ is known as the impact parameter). 
+Newton's second law predicts that the presence of the point mass will result in a momentum transfer
+between the two objects. If the corpuscle starts with 
+momentum $(p,0)$ then it will end up with momentum $(p_x,p_y)$.
+Therefore, the particle path is deflected by some angle $\Delta \theta$. The deflection angle is 
+simply given by 
+
+\begin{equation}
+  \sin(\Delta \theta) = \frac{p_y}{\sqrt{p_x^2+p_y^2}}
+  \label{deflectionnewton}
+\end{equation}
+
+\par For very small deflections we have $p\approx p_x >> p_y$ and $\Delta \theta << 1$. 
+Therefore \autoref{deflectionnewton} simplifies to $\Delta \theta
+\approx \frac{p_y}{p_x}$. We now consider the infinitesimal deflection along the entire path of the photon with
+$d\Delta \theta = \frac{dp_y}{p_x} = \frac{1}{px} dx \frac{dp_y}{dx}$. Therefore, we can find the deflection
+angle by 
+
+\begin{equation}
+  \begin{split}
+  \Delta \theta_N &= -\frac{1}{p_x} \int dx \frac{dp_y}{dx} \\
+  &= -\frac{1}{cp_x} \int dx \frac{dp_y}{dt} = -\frac{1}{cp_x} \int F_y dx \\ 
+  &= \frac{2GM}{c^2b}
+  \end{split}  
+  \label{newtonbend}
+\end{equation}
+
+We note that the mass of the corpuscle cancels out of the deflection equation. Therefore this equation applies
+for massless particles i.e. photons. Therefore \autoref{newtonbend} provides a newtonian description for the 
+bending of light \cite{lensingbook}.
+
+\subsubsection{General Relativistic Bending of Light}
+In this subsubsection I give a quick sketch of the bending of light in the context of general relativity,
+for a more detailed calculation please consult \cite{GR1}.
+
+\par The Einstein's field equations in the presence of a charge free static point mass is uniquely solved by 
+the Schwarzchild metric \cite{GR1}. The Schwarzchild metric is
+
+\begin{equation}
+  ds^2 = \left ( 1-\frac{r_s}{r} \right )  dt^2 - \left( 1-\frac{r_s}{r}\right) ^{-1} dr^2 -r^2 d\Omega^2
+  \label{schwarz}
+\end{equation}
+
+Where $r_s$ is the Shcwarzchild radius of the system given by $r_s=2 \mu = 2GM/c^2$. We can analyze the path of the photon from \autoref{subsec:newtonlens} by studying the geodesic equations of the metric and finding the conserved
+quantities of the system. We can then combine the conservation equations with the tangent vector norm condition for a 
+null path to get the shape equation of the system as 
+
+\begin{equation}
+  \frac{d\phi}{dr} = \frac{1}{r^2} \left(\frac{1}{b^2}- \frac{1}{r^2} \left(1-\frac{2\mu}{r}\right) \right)^{-1/2}
+  \label{shapeeqbend}
+\end{equation}
+
+where $(r,\phi)$ are the photons position in 2D polar coordinates and $b$ is the impact parameter. Rewriting this equation
+under the transformation of $r = 1/u$ and working pertrubatively around $u(\mu =0) = \frac{1}{b}\sin \phi
+$ we get 
+
+\begin{equation}
+  u(\phi) \approx \frac{1}{b}\sin \phi + \frac{3\mu}{2b^2} \left(1+\frac{1}{3}\cos 2 \phi \right)
+  \label{eq:}
+\end{equation}
+
+
+\begin{equation}
+  \Delta \theta = 2\Delta \theta_N=\frac{4GM}{c^2b}
+  \label{grbend}
+\end{equation}
+
+
+\subsection{Lensing Formalism}
+\cite{basicLens}
