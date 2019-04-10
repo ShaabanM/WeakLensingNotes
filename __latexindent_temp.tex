@@ -1,98 +1,55 @@
-% \subsection{Notes}
-% \begin{enumerate}
-%     \item Motivate The Problem Cosmo
-%     \item Introduce The Theory Cosmo + Lensing
-%     \item Explain How Theory Solves The Problem
-%     \item Current Results/ Experiments
-%     \item Explain Problems with WeakLensing
-%     \item Summarise
-% \end{enumerate}
+\documentclass{article}
+\usepackage[utf8]{inputenc}
 
-% Discuss probing the large scale universe with CMB, supernvae, clustering
-% and lensing. 
-% Note weak lensing makes no assumptions about the nature of dark matter
-% and no assumptions about relationship between visible matter and mass therefore
-% it provides a directly measured mass distribution in the universe as a function of 
-% redshift. Therefore we can get info on DE and DM directly. It is sensitive to intial
-% conditions so it can even give info on inflation. 
+\title{Weak Lensing for Precision Cosmology}
+\author{Mohamed Shaaban}
+\date{March 2019}
 
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\begin{document}
 
-\subsection{Bending of Light}
-The fundamental concept on which weak lensing is built is gravity's ability to alter the path of a photon.
-In this section we review the theory behind the bending of light necessary to develop the weak lensing formalism.
-\subsubsection{Newtonian Lens}
-\label{subsec:newtonlens}
+\maketitle
 
-It is a common misconception that the gravitational bending of light is an exclusive property of GR.
-However, gravity induced alterations to a photon's path are predicted by newtonian mechanics \cite{lensingbook}. To illustrate this 
-consider a mass $M$ located at the origin of the cartesian plane and a corpuscle(newtonian photon) 
-propagating along the $x=b$ line (in this context $b$ is known as the impact parameter). 
-Newton's second law predicts that the presence of the point mass will result in a momentum transfer
-between the two objects. If the corpuscle starts with 
-momentum $(p,0)$ then it will end up with momentum $(p_x,p_y)$.
-Therefore, the particle path is deflected by some angle $\Delta \theta$. The deflection angle is 
-simply given by 
+\section{Introduction}
+The most revolutionary discovery in cosmology since 
+Hubble observed that the Universe is expanding is that 
+this expansion is accelerating. A revelation that was 
+awarded the 2011 Nobel Prize for its profound 
+implications. \cite{nobel}. An accelerating
+universe implies that either our understanding of gravity is flawed 
+or that a mysterious pressure known as Dark Energy is driving the 
+expansion \cite{peebles}.
+This Dark Energy accounts for most (over 68\%) of the energy density in the observable universe, 
+however its origin and physics are presently unknown \cite{planck}. 
+As a result, the nature of Dark Energy is considered one of the 
+greatest mysteries of modern science \cite{pathfinder}.  
+\par
+One of the most powerful techniques to probe Dark Energy and modified theories of gravity is weak lensing. Insert discription of weak lensing here \cite{hoekstra}.
 
-\begin{equation}
-  \sin(\Delta \theta) = \frac{p_y}{\sqrt{p_x^2+p_y^2}}
-  \label{deflectionnewton}
-\end{equation}
+\section{Background Theory}
+\input{theory.tex}
+% Cosmology standard model and lensing formalism
 
-\par For very small deflections we have $p\approx p_x >> p_y$ and $\Delta \theta << 1$. 
-Therefore \autoref{deflectionnewton} simplifies to $\Delta \theta
-\approx \frac{p_y}{p_x}$. We now consider the infinitesimal deflection along the entire path of the photon with
-$d\Delta \theta = \frac{dp_y}{p_x} = \frac{1}{px} dx \frac{dp_y}{dx}$. Therefore, we can find the deflection
-angle by 
+% \section{Cosmological Observables}
+% Discussion about cosmology in general and observable in the framework \cite{general_2013}.
 
-\begin{equation}
-  \begin{split}
-  \Delta \theta_N &= -\frac{1}{p_x} \int dx \frac{dp_y}{dx} \\
-  &= -\frac{1}{cp_x} \int dx \frac{dp_y}{dt} = -\frac{1}{cp_x} \int F_y dx \\ 
-  &= \frac{2GM}{c^2b}
-  \end{split}  
-  \label{newtonbend}
-\end{equation}
+% \section{Weak Gravitational Lensing}
+% Discussion about lensing as a whole then specifics \cite{rachel_2018} \cite{massey_2013} \cite{Subaru_2019} 
 
-We note that the mass of the corpuscle cancels out of the deflection equation. Therefore this equation applies
-for massless particles i.e. photons. Therefore \autoref{newtonbend} provides a newtonian description for the 
-bending of light \cite{lensingbook}.
+\section{Measuring Shear}
 
-\subsubsection{General Relativistic Bending of Light}
-In this subsubsection I give a quick sketch of the bending of light in the context of general relativity,
-for a more detailed calculation please consult \cite{GR1}.
+\section{Cosmic Shear}
+\cite{lensingbook} \cite{rachel_2018} \cite{hoekstra}
 
-\par The Einstein's field equations in the presence of a charge free static point mass is uniquely solved by 
-the Schwarzchild metric \cite{GR1}. The Schwarzchild metric is
+\section{Problems With Weak Lensing}
+\cite{massey_2013}
 
-\begin{equation}
-  ds^2 = \left ( 1-\frac{r_s}{r} \right )  dt^2 - \left( 1-\frac{r_s}{r}\right) ^{-1} dr^2 -r^2 d\Omega^2
-  \label{schwarz}
-\end{equation}
+\section{Weak Lensing Results}
+\cite{Subaru_2019}
 
-Where $r_s$ is the Shcwarzchild radius of the system given by $r_s=2 \mu = 2GM/c^2$. We can analyze the path of the photon from \autoref{subsec:newtonlens} by studying the geodesic equations of the metric and finding the conserved
-quantities of the system. We can then combine the conservation equations with the tangent vector norm condition for a 
-null path to get the shape equation of the system as 
-
-\begin{equation}
-  \frac{d\phi}{dr} = \frac{1}{r^2} \left(\frac{1}{b^2}- \frac{1}{r^2} \left(1-\frac{2\mu}{r}\right) \right)^{-1/2}
-  \label{shapeeqbend}
-\end{equation}
-
-where $(r,\phi)$ are the photons position in 2D polar coordinates and $b$ is the impact parameter. Rewriting this equation
-under the transformation of $r = 1/u$ and working pertrubatively around $u(\mu =0) = \frac{1}{b}\sin \phi
-$ we get 
-
-\begin{equation}
-  u(\phi) \approx \frac{1}{b}\sin \phi + \frac{3\mu}{2b^2} \left(1+\frac{1}{3}\cos 2 \phi \right)
-  \label{eq:}
-\end{equation}
-
-
-\begin{equation}
-  \Delta \theta = 2\Delta \theta_N=\frac{4GM}{c^2b}
-  \label{grbend}
-\end{equation}
-
-
-\subsection{Lensing Formalism}
-\cite{basicLens}
+\bibliographystyle{plain}
+\bibliography{refs}
+\end{document}

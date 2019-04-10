@@ -5,45 +5,46 @@ The style file: plain.bst
 Database file #1: refs.bib
 Warning--to sort, need author or key in nobel
 Warning--empty journal in GR1
-You've used 12 entries,
+Warning--empty publisher in extragalactic
+You've used 13 entries,
             2118 wiz_defined-function locations,
-            575 strings with 7488 characters,
-and the built_in function-call counts, 7025 in all, are:
-= -- 632
-> -- 562
+            579 strings with 7637 characters,
+and the built_in function-call counts, 7241 in all, are:
+= -- 650
+> -- 569
 < -- 5
-+ -- 225
-- -- 212
-* -- 580
-:= -- 1142
-add.period$ -- 33
-call.type$ -- 12
-change.case$ -- 140
++ -- 228
+- -- 214
+* -- 590
+:= -- 1179
+add.period$ -- 36
+call.type$ -- 13
+change.case$ -- 143
 chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 227
-empty$ -- 348
-format.name$ -- 212
-if$ -- 1434
+cite$ -- 16
+duplicate$ -- 239
+empty$ -- 370
+format.name$ -- 214
+if$ -- 1479
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 10
-newline$ -- 60
-num.names$ -- 23
-pop$ -- 145
+int.to.str$ -- 13
+missing$ -- 12
+newline$ -- 65
+num.names$ -- 25
+pop$ -- 154
 preamble$ -- 1
-purify$ -- 129
+purify$ -- 132
 quote$ -- 0
-skip$ -- 225
+skip$ -- 231
 stack$ -- 0
-substring$ -- 305
-swap$ -- 110
+substring$ -- 310
+swap$ -- 111
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 47
-warning$ -- 2
-while$ -- 33
-width$ -- 14
-write$ -- 126
-(There were 2 warnings)
+type$ -- 49
+warning$ -- 3
+while$ -- 35
+width$ -- 15
+write$ -- 135
+(There were 3 warnings)
