@@ -110,10 +110,10 @@ INPUT /home/shaaban/Work/Academic-Work/GR/WeakLensingProject/sections/intro.tex
 INPUT /home/shaaban/Work/Academic-Work/GR/WeakLensingProject/sections/theory.tex
 INPUT /home/shaaban/Work/Academic-Work/GR/WeakLensingProject/sections/theory.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.bbl
 INPUT /home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.bbl
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm

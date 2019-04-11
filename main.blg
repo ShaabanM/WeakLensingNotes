@@ -4,47 +4,48 @@ The top-level auxiliary file: main.aux
 The style file: plain.bst
 Database file #1: refs.bib
 Warning--to sort, need author or key in nobel
+Warning--empty journal in Hogg:1999ad
 Warning--empty journal in GR1
 Warning--empty publisher in extragalactic
-You've used 13 entries,
+You've used 14 entries,
             2118 wiz_defined-function locations,
-            579 strings with 7637 characters,
-and the built_in function-call counts, 7241 in all, are:
-= -- 650
-> -- 569
+            584 strings with 7709 characters,
+and the built_in function-call counts, 7444 in all, are:
+= -- 669
+> -- 576
 < -- 5
-+ -- 228
-- -- 214
-* -- 590
-:= -- 1179
-add.period$ -- 36
-call.type$ -- 13
-change.case$ -- 143
++ -- 231
+- -- 216
+* -- 598
+:= -- 1217
+add.period$ -- 39
+call.type$ -- 14
+change.case$ -- 147
 chr.to.int$ -- 0
-cite$ -- 16
-duplicate$ -- 239
-empty$ -- 370
-format.name$ -- 214
-if$ -- 1479
+cite$ -- 18
+duplicate$ -- 249
+empty$ -- 387
+format.name$ -- 216
+if$ -- 1519
 int.to.chr$ -- 0
-int.to.str$ -- 13
-missing$ -- 12
-newline$ -- 65
-num.names$ -- 25
-pop$ -- 154
+int.to.str$ -- 14
+missing$ -- 13
+newline$ -- 70
+num.names$ -- 27
+pop$ -- 160
 preamble$ -- 1
-purify$ -- 132
+purify$ -- 135
 quote$ -- 0
-skip$ -- 231
+skip$ -- 238
 stack$ -- 0
-substring$ -- 310
+substring$ -- 315
 swap$ -- 111
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 49
-warning$ -- 3
-while$ -- 35
-width$ -- 15
-write$ -- 135
-(There were 3 warnings)
+type$ -- 53
+warning$ -- 4
+while$ -- 37
+width$ -- 16
+write$ -- 144
+(There were 4 warnings)
