@@ -16,14 +16,15 @@
 % redshift. Therefore we can get info on DE and DM directly. It is sensitive to intial
 % conditions so it can even give info on inflation. 
 \subsection{Standard Model of Cosmology}
-\begin{enumerate}
-    \item Motivation (modified gravity vs Dark energy) is DE constant in space ? and time ?
-    \item FRW Standard Cosmology 
-    \item Distance Measures In Cosmo
-    \item Gravitational Evolution of Dark matter
-    \item Observables and Parameters
-\end{enumerate}
-The fundamental assumption in cosmology, known as the cosmological principle, is that we live in a homogenous and isotropic universe \cite{general_2013}. 
+
+The fundamental assumption in cosmology, known as the cosmological principle, is that we live in a homogenous (independent of position) and isotropic (independent of direction) universe \cite{general_2013,ryden}. Solving Einstein's equations under the geometric symmetries provided by the cosmological principle and taking into account the expansion of the universe one finds that the dynamics of the universe are governed by the Friedman equation \cite{ryden,general_2013},
+
+\begin{equation}
+  H^2(z) = H_0^2 \left(\Omega_r (1+z)^4 + \Omega_m (1+z)^3 + \Omega_k (1+z)^2 + \Omega_\Lambda \frac{\rho_\Lambda(z)}{\rho_\Lambda(0)}\right)
+  \label{eq:friedman}
+\end{equation}
+
+
 Remeber to show the Standard Model parameters! can be found in wikipedia.
 \par Angular diameter distance is the one of relvance in lensing (distance measures in cosmology)
 Distances in cosmo \cite{Hogg:1999ad}
@@ -31,12 +32,19 @@ lol
 
 \par For current and future surveys, one goal is to use the redshifts of the background galaxies (often approximated using photometric redshifts) to divide the survey into multiple redshift bins. The low-redshift bins will only be lensed by structures very near to us, while the high-redshift bins will be lensed by structures over a wide range of redshift. This technique, dubbed "cosmic tomography", makes it possible to map out the 3D distribution of mass. Because the third dimension involves not only distance but cosmic time, tomographic weak lensing is sensitive not only to the matter power spectrum today, but also to its evolution over the history of the universe, and the expansion history of the universe during that time. This is a much more valuable cosmological probe, and many proposed experiments to measure the properties of dark energy and dark matter have focused on weak lensing, such as the Dark Energy Survey, Pan-STARRS, and Large Synoptic Survey Telescope. 
 
+\begin{enumerate}
+  \item Motivation (modified gravity vs Dark energy) is DE constant in space ? and time ?
+  \item FRW Standard Cosmology 
+  \item Distance Measures In Cosmo
+  \item Gravitational Evolution of Dark matter
+  \item Observables and Parameters
+\end{enumerate}
 \subsubsection{Matter Power Spectrum}
 \cite{extragalactic}
 
 \subsection{Bending of Light}
-The fundamental concept on which weak lensing is built is gravity's ability to alter the path of a photon.
-In this section we review the theory behind the bending of light necessary to develop the weak lensing formalism.
+The fundamental concept on which weak lensing is built is gravity's ability to alter the path of a photon. This phenomenon is explored in full detail in \cite{GR1,basicLens,Mellier:1998pk}.
+In this subsection I present a simple overview of the theory behind the bending of light necessary to develop the weak lensing formalism. For more detailed calculations consult \cite{GR1,basicLens,Mellier:1998pk}.
 \subsubsection{Newtonian Lens}
 \label{subsec:newtonlens}
 
@@ -76,10 +84,7 @@ for massless particles i.e. photons. Therefore \autoref{newtonbend} provides a n
 bending of light \cite{lensingbook}.
 
 \subsubsection{General Relativistic Bending of Light}
-In this subsubsection I give a quick sketch of the bending of light in the context of general relativity,
-for a more detailed calculation please consult \cite{GR1}.
-
-\par The Einstein's field equations in the presence of a charge free static point mass is uniquely solved by 
+The Einstein's field equations in the presence of a charge free static point mass is uniquely solved by 
 the Schwarzchild metric \cite{GR1}. The Schwarzchild metric is
 
 \begin{equation}
@@ -87,7 +92,7 @@ the Schwarzchild metric \cite{GR1}. The Schwarzchild metric is
   \label{schwarz}
 \end{equation}
 
-Where $r_s$ is the Shcwarzchild radius of the system given by $r_s=2 \mu = 2GM/c^2$. We can analyze the path of the photon from \autoref{subsec:newtonlens} by studying the geodesic equations of the metric and finding the conserved
+where $r_s$ is the Shcwarzchild radius of the system given by $r_s=2 \mu = 2GM/c^2$ and $(t,r,\Omega)$ are the standard parameters for 4D space-time in polar coordinates. We can analyze the path of the photon from \autoref{subsec:newtonlens} by studying the geodesic equations of the metric and finding the conserved
 quantities of the system. We can then combine the conservation equations with the tangent vector norm condition for a 
 null path to get the shape equation of the system as 
 
@@ -115,5 +120,29 @@ in the limit were $\phi << 1$ and $u \rightarrow 0$ \autoref{eq:pertshape} simpl
 We conclude that general relativity predicts a factor of 2 greater deflection form a point mass than is predicted by newtonian mechanics. This relationship greatly simplifies the formalism developed for weak lensing. 
 
 \subsection{Weak Lensing Formalism}
-Now that we have a theoratical understanding of the Cosmological parameters we would like to measure as well as an understanding of how gravitational fields impact the path of light we are ready to develop the weak lensing formalism on which all weak lensing applications are built.
-Talk about thin lens and how the formalism revloves around projecting newtonian potential onto the lens 2D surface.\cite{basicLens}
+Now that we have a theoretical understanding of the Cosmological parameters we would like to measure as well as an understanding of how gravitational fields impact the path of light we are ready to develop the weak lensing formalism on which all weak lensing applications are built.
+
+\begin{equation}
+  b=b
+  \label{eq:}
+\end{equation}
+
+
+\begin{figure}
+    \begin{center}
+      \includegraphics[width=\textwidth]{figs/lens.jpg}
+    \end{center}
+    \caption{Sketch of a thin lens system highlighting the parameters of relevance in the weak lensing formalism. It is conventional to assume the planes are orthogonal to the z axis.}
+    \label{fig:lens}
+\end{figure}
+
+\begin{figure}
+    \begin{center}
+      \includegraphics[width=\textwidth]{figs/shear-11.jpg}
+    \end{center}
+    \caption{}
+    \label{fig:shears}
+\end{figure}
+
+
+\par Talk about thin lens and how the formalism revloves around projecting newtonian potential onto the lens 2D surface.\cite{basicLens}

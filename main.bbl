@@ -68,6 +68,11 @@ Richard {Massey}, Henk {Hoekstra}, Thomas {Kitching}, Jason {Rhodes}, Mark
   instrumentation (or knowledge of instrumentation)}.
 \newblock {\em mnras}, 429:661--678, Feb 2013.
 
+\bibitem{Mellier:1998pk}
+Yannick Mellier.
+\newblock {Probing the universe with weak lensing}.
+\newblock {\em Ann. Rev. Astron. Astrophys.}, 37:127--189, 1999.
+
 \bibitem{lensingbook}
 G.~{Meylan}, P.~{Jetzer}, P.~{North}, P.~{Schneider}, C.~S. {Kochanek}, and
   J.~{Wambsganss}, editors.
@@ -82,6 +87,11 @@ P.~J.~E. Peebles and Bharat Ratra.
 A.W. Peet.
 \newblock {General Relativity Notes }.
 \newblock page https://ap.io/483f/files/gr1.pdf, 2018.
+
+\bibitem{ryden}
+B.~Ryden.
+\newblock {\em Introduction to Cosmology}.
+\newblock Cambridge University Press, 2016.
 
 \bibitem{extragalactic}
 P.~{Schneider}.
