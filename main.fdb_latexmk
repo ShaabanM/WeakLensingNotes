@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex main"] 1555340006 "main.aux" "main.bbl" "main" 1555361113
+["bibtex main"] 1555362784 "main.aux" "main.bbl" "main" 1555363019
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1480098433 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "main.aux" 1555361113 4890 f2825f3078bda6d00aa25f60ee94459d ""
+  "main.aux" 1555362845 4966 2c859451e4a082e8815fafa82d912cf8 ""
   "main.bcf" 0 -1 0 ""
   "refs.bib" 1555254152 20753 68545143a3b30833c29eae1ba9670aba ""
   (generated)
-  "main.bbl"
   "main.blg"
-["pdflatex"] 1555361113 "/home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.tex" "/home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.pdf" "main" 1555361113
+  "main.bbl"
+["pdflatex"] 1555362845 "/home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.tex" "/home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.pdf" "main" 1555363019
   "/etc/texmf/web2c/texmf.cnf" 1543355472 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.aux" 1555361113 4890 f2825f3078bda6d00aa25f60ee94459d ""
+  "/home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.aux" 1555362845 4966 2c859451e4a082e8815fafa82d912cf8 ""
   "/home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.tex" 1555184692 1056 4bd7c1bd2286cdc9d4bda7bc37747bf2 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -84,16 +84,16 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1550608004 859996 cb2f26ee0447cd2c164554ae7d9d40ca ""
   "figs/lens.jpg" 1555259008 570400 e3348074614c07b2b66c571cd3f7fea4 ""
   "figs/shear-11.jpg" 1555268080 376416 6221c19971bd27322acf97c11e7432f8 ""
-  "main.aux" 1555361113 4890 f2825f3078bda6d00aa25f60ee94459d ""
-  "main.bbl" 1555340006 4207 ac0b39838bec0677053e501159ce56ef "bibtex main"
-  "main.out" 1555361113 823 ac1cebbfa4473616523e0a7ed80d8fd8 ""
+  "main.aux" 1555362845 4966 2c859451e4a082e8815fafa82d912cf8 ""
+  "main.bbl" 1555362784 4207 ac0b39838bec0677053e501159ce56ef "bibtex main"
+  "main.out" 1555362845 823 ac1cebbfa4473616523e0a7ed80d8fd8 ""
   "main.tex" 1555184692 1056 4bd7c1bd2286cdc9d4bda7bc37747bf2 ""
   "sections/intro.tex" 1555184669 2326 359b4cab8f1ee4b21d0aa1066170c8b3 ""
-  "sections/theory.tex" 1555361112 8773 2c903bf57ce8cdd1780ef46a67ccad24 ""
+  "sections/theory.tex" 1555363018 9616 4e80e3972972b8e68a0820ef87ea5b7f ""
   (generated)
+  "/home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.pdf"
+  "main.aux"
   "/home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.log"
   "main.out"
   "main.log"
-  "main.aux"
   "main.pdf"
-  "/home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.pdf"
