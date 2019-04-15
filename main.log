@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.19)  14 APR 2019 14:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.19)  15 APR 2019 11:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -583,21 +583,21 @@ Overfull \hbox (0.54692pt too wide) in paragraph at lines 28--29
 <figs/lens.jpg, id=129, 2139.995pt x 1727.45375pt>
 File: figs/lens.jpg Graphic file (type jpg)
 <use figs/lens.jpg>
-Package pdftex.def Info: figs/lens.jpg  used on input line 133.
+Package pdftex.def Info: figs/lens.jpg  used on input line 135.
 (pdftex.def)             Requested size: 345.0pt x 278.48059pt.
 <figs/shear-11.jpg, id=130, 1885.0425pt x 844.15375pt>
 File: figs/shear-11.jpg Graphic file (type jpg)
 <use figs/shear-11.jpg>
-Package pdftex.def Info: figs/shear-11.jpg  used on input line 141.
+Package pdftex.def Info: figs/shear-11.jpg  used on input line 143.
 (pdftex.def)             Requested size: 345.0pt x 154.4915pt.
-) [4] [5 </home/shaaban/Work/Academic-Work/GR/WeakLensingProject/figs/lens.jpg> </home/shaaban/Work/Academic-Work/GR/WeakLensingProject/figs/shear-11.jpg>] (/home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.bbl [6]
+) [4] [5 </home/shaaban/Work/Academic-Work/GR/WeakLensingProject/figs/lens.jpg>] (/home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.bbl [6 </home/shaaban/Work/Academic-Work/GR/WeakLensingProject/figs/shear-11.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 87--90
 []\OT1/cmr/m/n/10 A.W. Peet.  Gen-eral Rel-a-tiv-ity Notes .  page
  []
 
-)
+[7])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 41.
- [7]
+ [8]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 41.
  (/home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 41.
@@ -607,18 +607,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
  ) 
 Here is how much of TeX's memory you used:
- 6376 strings out of 494880
- 90510 string characters out of 6179601
- 176911 words of memory out of 5000000
+ 6377 strings out of 494880
+ 90516 string characters out of 6179601
+ 177133 words of memory out of 5000000
  9583 multiletter control sequences out of 15000+600000
  9369 words of font info for 34 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 28i,15n,28p,1202b,440s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,15n,28p,1202b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.pdf (7 pages, 1128655 bytes).
+Output written on /home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.pdf (8 pages, 1130333 bytes).
 PDF statistics:
- 227 PDF objects out of 1000 (max. 8388607)
- 200 compressed objects within 2 object streams
- 54 named destinations out of 1000 (max. 500000)
+ 233 PDF objects out of 1000 (max. 8388607)
+ 204 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
  107 words of extra memory for PDF output out of 10000 (max. 10000000)
 
