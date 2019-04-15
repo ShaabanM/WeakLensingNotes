@@ -73,7 +73,7 @@ angle by
 \begin{equation}
   \begin{split}
   \Delta \theta_N &= -\frac{1}{p_x} \int dx \frac{dp_y}{dx} \\
-  &= -\frac{1}{cp_x} \int dx \frac{dp_y}{dt} = -\frac{1}{cp_x} \int F_y dx \\ 
+  &= -\frac{1}{cp_x} \int dx \frac{dp_y}{dt}  \\ 
   &= \frac{2GM}{c^2b}
   \end{split}  
   \label{newtonbend}
@@ -120,27 +120,19 @@ in the limit were $\phi << 1$ and $u \rightarrow 0$ \autoref{eq:pertshape} simpl
 We conclude that general relativity predicts a factor of 2 greater deflection form a point mass than is predicted by newtonian mechanics. This relationship greatly simplifies the formalism developed for weak lensing. 
 
 \subsection{Weak Lensing Formalism}
-Now that we have a theoretical understanding of the Cosmological parameters we would like to measure, as well as an understanding of how gravitational fields impact the trajectory of light. We are ready to develop the theoretical formalism on which all weak lensing applications are built.
+Now that we have a theoretical understanding of the Cosmological parameters we would like to measure, as well as an understanding of how gravitational fields impact the trajectory of light. We are ready to develop the theoretical formalism on which all weak lensing applications are built. 
 
-\par In order to develop our formalism let us consider the set up in \autoref{fig:lens}. For astronomical applications such as precision cosmology the distance from the observer to the lens $D_L$, the distance from the lens to the source $D_{SL}$, and the distance from the observer to the source $D_S$ are much greater than the thickness of the lens along the optical axis. 
-
-We begin by generalizing the results from the previous sections to the case of an extended object. As the name suggests weak lensing operates in the weak gravitational field limit. Therefore, it suffices to work with the newtonian potential of an extended object given by
+\par In order to develop our formalism let us consider a general lensing system as seen in \autoref{fig:lens}. For astronomical applications on cosmological scales the distance from the observer to the lens $D_L$, the distance from the lens to the source $D_{SL}$, and the distance from the observer to the source $D_S$ are much greater than the thickness of the lens along the optical axis. Therefore we can treat the lens as a "thin lens", i.e. it lives on a planar slice along the line of sight. We project the mass and potential of the lens onto the lensing plane by defining the projected surface density $\Sigma$ and projected potential $\Psi$ as
 
 \begin{equation}
-  \psi =  a
-  \label{eq:newtpotextend}
+  \begin{split}
+    \Sigma(x,y) &= \int \rho(x,y,z) dz \\
+    \Psi &= \int \psi dz
+  \end{split}
+  \label{eq:surfacedensity+surfacepot}
 \end{equation}
 
-
-the deflection angle $\vec{\alpha}$ integrate over a newtonian point particle potential with a facto\autoref{fig:lens}
-
-\par As the name suggests weak lensing operates in the weak gravitational field limit and therefore it suffices to deal with newtonian point mass gravitational potential $\psi = -GM/r$ as long as we keep track of the factor of $2$ discussed . 
-
-\begin{equation}
-  b=b
-  \label{eq:}
-\end{equation}
-
+were $\rho$ and $\psi$ are the
 
 \begin{figure}
     \begin{center}
