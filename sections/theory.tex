@@ -55,24 +55,24 @@ propagating along the $x=b$ line (in this context $b$ is known as the impact par
 Newton's second law predicts that the presence of the point mass will result in a momentum transfer
 between the two objects. If the corpuscle starts with 
 momentum $(p,0)$ then it will end up with momentum $(p_x,p_y)$.
-Therefore, the particle path is deflected by some angle $\Delta \theta$. The deflection angle is 
+Therefore, the particle path is deflected by some angle $\hat{\alpha}$. The deflection angle is 
 simply given by 
 
 \begin{equation}
-  \sin(\Delta \theta) = \frac{p_y}{\sqrt{p_x^2+p_y^2}}
+  \sin(\hat{\alpha}) = \frac{p_y}{\sqrt{p_x^2+p_y^2}}
   \label{deflectionnewton}
 \end{equation}
 
 
-\par For very small deflections we have $p\approx p_x >> p_y$ and $\Delta \theta << 1$. 
-Therefore \autoref{deflectionnewton} simplifies to $\Delta \theta
+\par For very small deflections we have $p\approx p_x >> p_y$ and $\hat{\alpha} << 1$. 
+Therefore \autoref{deflectionnewton} simplifies to $\hat{\alpha}
 \approx \frac{p_y}{p_x}$. We now consider the infinitesimal deflection along the entire path of the photon with
-$d\Delta \theta = \frac{dp_y}{p_x} = \frac{1}{px} dx \frac{dp_y}{dx}$. Therefore, we can find the deflection
+$d\hat{\alpha} = \frac{dp_y}{p_x} = \frac{1}{px} dx \frac{dp_y}{dx}$. Therefore, we can find the deflection
 angle by 
 
 \begin{equation}
   \begin{split}
-  \Delta \theta_N &= -\frac{1}{p_x} \int dx \frac{dp_y}{dx} \\
+  \hat{\alpha}_N &= -\frac{1}{p_x} \int dx \frac{dp_y}{dx} \\
   &= -\frac{1}{cp_x} \int dx \frac{dp_y}{dt}  \\ 
   &= \frac{2GM}{c^2b}
   \end{split}  
@@ -110,46 +110,53 @@ $ we get
   \label{eq:pertshape}
 \end{equation}
 
-in the limit were $\phi << 1$ and $u \rightarrow 0$ \autoref{eq:pertshape} simplifies to $\phi = \Delta \theta_N =\frac{2GM}{c^2b} $. Geometrically the deflection is given by $\Delta \theta = 2\phi$ and therefore the deflection angle is
+in the limit were $\phi << 1$ and $u \rightarrow 0$ \autoref{eq:pertshape} simplifies to $\phi = \hat{\alpha}_N =\frac{2GM}{c^2b} $. Geometrically the deflection is given by $\hat{\alpha}= 2\phi$ and therefore the deflection angle is
 
 \begin{equation}
-  \Delta \theta = 2\Delta \theta_N=\frac{4GM}{c^2b}
+  \hat{\alpha} = 2\hat{\alpha}_N=\frac{4GM}{c^2b}
   \label{grbend}
 \end{equation}
 
 We conclude that general relativity predicts a factor of 2 greater deflection form a point mass than is predicted by newtonian mechanics. This relationship greatly simplifies the formalism developed for weak lensing. 
 
 \subsection{Weak Lensing Formalism}
-Now that we have a theoretical understanding of the Cosmological parameters we would like to measure, as well as an understanding of how gravitational fields impact the trajectory of light. We are ready to develop the theoretical formalism on which all weak lensing applications are built. 
+Now that we have a theoretical understanding of the Cosmological parameters we would like to measure, as well as an understanding of how gravitational fields impact the trajectory of light. We are ready to develop the theoretical formalism on which all weak lensing applications are built. This formalism is based on a combination of the frameworks developed in these sources \cite{basicLens,general_2013,rachel_2018,hoekstra,massey_2013,Mellier:1998pk}.
 
-\par In order to develop our formalism let us consider a general lensing system as seen in \autoref{fig:lens}. For astronomical applications on cosmological scales the distance from the observer to the lens $D_L$, the distance from the lens to the source $D_{SL}$, and the distance from the observer to the source $D_S$ are much greater than the thickness of the lens along the optical axis. Therefore we can treat the lens as a "thin lens", i.e. it lives on a planar slice along the line of sight. We project the mass and potential of the lens onto the lensing plane by defining the projected surface density $\Sigma$ and projected potential $\Psi$ as
+\subsubsection{Weak thin lens}
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=\textwidth]{figs/lens.jpg}
+  \end{center}
+  \caption{Sketch of a thin lens system highlighting the parameters of relevance in the weak lensing formalism. It is conventional to assume the planes are orthogonal to the z axis.}
+  \label{fig:lens}
+\end{figure}
+In order to develop our formalism let us consider a general lensing system as seen in \autoref{fig:lens}. For astronomical applications on cosmological scales the distance from the observer to the lens $D_L$, the distance from the lens to the source $D_{LS}$, and the distance from the observer to the source $D_S$ are much greater than the thickness of the lens along the optical axis. Therefore we can treat the lens as a "thin lens", i.e. it lives on a planar slice (lensing plane) along the line of sight. We project the mass and potential of the lens onto the lensing plane by defining the projected surface density $\Sigma$ and projected potential $\Phi$ as
 
 \begin{equation}
   \begin{split}
     \Sigma(x,y) &= \int \rho(x,y,z) dz \\
-    \Psi &= \int \psi dz
+    \Phi &= \int \phi dz
   \end{split}
   \label{eq:surfacedensity+surfacepot}
 \end{equation}
 
-were $\rho$ and $\psi$ are the spatial mass density and the newtonian potential respectively. We can now use the results from the previous section to find the deflection angle $\hat{\alpha}$ due to the extended thin lens. The deflection is given by
+were $\rho$ and $\phi$ are the spatial mass density and the newtonian potential respectively. We can now use the results from the previous section to find the deflection angle $\hat{\alpha}$ due to the extended thin lens. The deflection is given by
 
 \begin{equation}
-  \hat{\alpha} = \frac{2}{c^2} \nabla \Psi(x,y)
+  \hat{\alpha} = \frac{2}{c^2} \nabla \Phi(x,y)
   \label{eq:deflectionthinlens}
 \end{equation}
 
-were the factor of 2 comes from \autoref{grbend}. 
+were the factor of 2 comes from \autoref{grbend} and $\nabla$ is the two dimensional gradient. Note that this equation is equivalent to that describing the deflection of light by an optical lens with refractive index $n=1-2\phi/c^2$, hence the name lensing. Geometrically we have $\beta = \theta - \alpha$ and $\hat{\alpha} = \frac{D_{LS}}{D_S}\alpha$ from \autoref{fig:lens}. This leads us to the ray trace equation
 
-Geometrically the deflection angle is related to $\alpha$ A convenient convention is to define the critical surface mass density $\Sigma_c$ Therefore we can find 
+\begin{equation}
+  \beta = \theta - \frac{D_{LS}}{D_S} \hat{\alpha}(\theta)
+  \label{eq:raytrace}
+\end{equation}
 
-\begin{figure}
-    \begin{center}
-      \includegraphics[width=\textwidth]{figs/lens.jpg}
-    \end{center}
-    \caption{Sketch of a thin lens system highlighting the parameters of relevance in the weak lensing formalism. It is conventional to assume the planes are orthogonal to the z axis.}
-    \label{fig:lens}
-\end{figure}
+The ray trace equation is the fundamental equation in weak lensing relating all the geometric properties of the system to one another. 
+
+\subsubsection{Differential deflection of adjacent light rays}
 
 \begin{figure}
     \begin{center}
