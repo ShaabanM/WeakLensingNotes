@@ -32,13 +32,13 @@ lol
 
 \par For current and future surveys, one goal is to use the redshifts of the background galaxies (often approximated using photometric redshifts) to divide the survey into multiple redshift bins. The low-redshift bins will only be lensed by structures very near to us, while the high-redshift bins will be lensed by structures over a wide range of redshift. This technique, dubbed "cosmic tomography", makes it possible to map out the 3D distribution of mass. Because the third dimension involves not only distance but cosmic time, tomographic weak lensing is sensitive not only to the matter power spectrum today, but also to its evolution over the history of the universe, and the expansion history of the universe during that time. This is a much more valuable cosmological probe, and many proposed experiments to measure the properties of dark energy and dark matter have focused on weak lensing, such as the Dark Energy Survey, Pan-STARRS, and Large Synoptic Survey Telescope. 
 
-\begin{enumerate}
-  \item Motivation (modified gravity vs Dark energy) is DE constant in space ? and time ?
-  \item FRW Standard Cosmology 
-  \item Distance Measures In Cosmo
-  \item Gravitational Evolution of Dark matter
-  \item Observables and Parameters
-\end{enumerate}
+% \begin{enumerate}
+%   \item Motivation (modified gravity vs Dark energy) is DE constant in space ? and time ?
+%   \item FRW Standard Cosmology 
+%   \item Distance Measures In Cosmo
+%   \item Gravitational Evolution of Dark matter
+%   \item Observables and Parameters
+% \end{enumerate}
 \subsubsection{Matter Power Spectrum}
 \cite{extragalactic}
 
@@ -132,7 +132,16 @@ Now that we have a theoretical understanding of the Cosmological parameters we w
   \label{eq:surfacedensity+surfacepot}
 \end{equation}
 
-were $\rho$ and $\psi$ are the
+were $\rho$ and $\psi$ are the spatial mass density and the newtonian potential respectively. We can now use the results from the previous section to find the deflection angle $\hat{\alpha}$ due to the extended thin lens. The deflection is given by
+
+\begin{equation}
+  \hat{\alpha} = \frac{2}{c^2} \nabla \Psi(x,y)
+  \label{eq:deflectionthinlens}
+\end{equation}
+
+were the factor of 2 comes from \autoref{grbend}. 
+
+Geometrically the deflection angle is related to $\alpha$ A convenient convention is to define the critical surface mass density $\Sigma_c$ Therefore we can find 
 
 \begin{figure}
     \begin{center}
@@ -149,6 +158,3 @@ were $\rho$ and $\psi$ are the
     \caption{The effects of the convergence $\kappa$ and  the shear $\gamma$ on a circular image of a galaxy. The black line represents the nominal image, orange represents positive parameter values, and green represents negative parameter values.}
     \label{fig:shears}
 \end{figure}
-
-
-\par Talk about thin lens and how the formalism revloves around projecting newtonian potential onto the lens 2D surface.\cite{basicLens}
