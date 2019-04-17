@@ -7,45 +7,45 @@ Warning--to sort, need author or key in nobel
 Warning--empty journal in Hogg:1999ad
 Warning--empty journal in GR1
 Warning--empty publisher in extragalactic
-You've used 16 entries,
+You've used 17 entries,
             2118 wiz_defined-function locations,
-            596 strings with 7899 characters,
-and the built_in function-call counts, 7941 in all, are:
-= -- 717
-> -- 590
+            604 strings with 8145 characters,
+and the built_in function-call counts, 8214 in all, are:
+= -- 745
+> -- 597
 < -- 5
-+ -- 237
-- -- 220
-* -- 624
-:= -- 1303
-add.period$ -- 45
-call.type$ -- 16
-change.case$ -- 154
++ -- 240
+- -- 222
+* -- 641
+:= -- 1350
+add.period$ -- 48
+call.type$ -- 17
+change.case$ -- 158
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 272
-empty$ -- 435
-format.name$ -- 220
-if$ -- 1625
+cite$ -- 21
+duplicate$ -- 283
+empty$ -- 460
+format.name$ -- 222
+if$ -- 1683
 int.to.chr$ -- 0
-int.to.str$ -- 16
-missing$ -- 16
-newline$ -- 80
-num.names$ -- 31
-pop$ -- 170
+int.to.str$ -- 17
+missing$ -- 17
+newline$ -- 85
+num.names$ -- 33
+pop$ -- 172
 preamble$ -- 1
-purify$ -- 141
+purify$ -- 144
 quote$ -- 0
-skip$ -- 251
+skip$ -- 258
 stack$ -- 0
-substring$ -- 346
-swap$ -- 113
+substring$ -- 369
+swap$ -- 114
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 59
+type$ -- 63
 warning$ -- 4
-while$ -- 42
-width$ -- 18
-write$ -- 165
+while$ -- 45
+width$ -- 19
+write$ -- 176
 (There were 4 warnings)
