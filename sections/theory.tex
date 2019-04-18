@@ -157,7 +157,7 @@ were the factor of 2 comes from \autoref{grbend} and $\nabla$ is the two dimensi
 The ray trace equation is the fundamental equation in weak lensing relating all the geometric properties of the system to one another. 
 
 \subsubsection{Differential deflection of adjacent light rays}
-In the weak limit the actual deflections are not observable because the true position of the source is unknown. As a result, only the effects of differential deflection can be measure. Two adjacent light rays from the source pass through the lens at slightly different positions and will therefore be deflected differently. This effect results in a remapping of the observed surface brightness of the source $f_s$ to the observed surface brightness $f_{obs}$. This mapping can be linearized and is therefore given by 
+In the weak limit the actual deflections are not observable because the true position of the source is unknown. As a result, only the effects of differential deflection can be measured. Two adjacent light rays from the source pass through the lens at slightly different positions and will therefore be deflected differently. This effect results in a remapping of the observed surface brightness of the source $f_s$ to the observed surface brightness $f_{obs}$. This mapping can be linearized and is therefore given by 
 
 \begin{equation}
   f_{obs}(\vec{\theta}) \approx f_s(A\vec{\theta})
@@ -168,29 +168,38 @@ were $A$ is the Jacobian of the transformation. A convenient convention is to re
 
 \begin{equation}
   A = \delta_{ij} - \frac{\partial^2 \Phi}{\partial \theta_i \partial \theta_j} =  \begin{pmatrix}
-    1-\kappa-\gamma_1 & -\gamma_2 \\
-    -\gamma_2 & 1-\kappa+\gamma_1
+    1-\kappa-\gamma_+ & -\gamma_\times \\
+    -\gamma_\times & 1-\kappa+\gamma_+
     \end{pmatrix}
   \label{eq:Ajacobian}
 \end{equation}
 
-were we have defined the convergence $\kappa$ shear $\gamma = \gamma_1 + i \gamma_2$ as 
+were we have defined the convergence $\kappa$ shear $\gamma = \gamma_+ + i \gamma_\times$ as 
 
 \begin{equation}
-  \begin{pmatrix}
-    \kappa \\
-    \gamma_1 \\ 
-    \gamma_2 \\
-  \end{pmatrix}
-  = \frac{D_{LS}D_L}{c^2D_S}
-  \begin{pmatrix}
-    \partial_x^2 \Phi + \partial_y^2 \Phi\\
-    \partial_x^2 \Phi - \partial_y^2 \Phi\\
-    2 \partial_x \partial_y \Phi\\
-  \end{pmatrix}
+  \begin{split}
+   \kappa &= \frac{1}{2}(\partial_x^2 \Phi + \partial_y^2 \Phi)\\
+   \gamma_+ &=  \frac{1}{2}(\partial_x^2 \Phi - \partial_y^2 \Phi)\\
+   \gamma_\times &=  \partial_x \partial_y \Phi \\
+  \end{split}
   \label{eq:kappagamma}
 \end{equation}
 
+We can now study the geometric implications of the remapping. If we consider a circular source we see that  $\gamma_+$ and $\gamma_\times$ correspond to a stretching of the circle along the x/y axis and the x=y line respectively, $\kappa$ corresponds to isotropic enlargement of the source's profile, and since the mapping conserves surface brightness we observe an increase of the total flux by a magnification factor
+
+\begin{equation}
+  \mu = \frac{1}{\text{det}A} = \frac{1}{(1-\kappa)^2 - \gamma_+^2 - \gamma_\times^2}
+  \label{eq:magnificaiton}
+\end{equation}
+
+these geometric effects are illustrated in \autoref{fig:shears}. To be more specific a circular source is mapped to an ellipse with major axis $a = (1-\kappa - |\gamma|)^{-1}$ and minor axis $b = (1-\kappa + |\gamma|)^{-1}$ \cite{massey_2013}. If we define the reduced shear as $g = \gamma / (1-\kappa)$ then an ellipse with ellipticity $\epsilon_{orig}$ is mapped to an ellipse with ellipticity $\epsilon_{obs}$ given by 
+
+\begin{equation}
+  \epsilon_{obs} = \frac{\epsilon_{orig} + g}{1+g^* \epsilon_{orig}} \approx \epsilon_{orig} + \gamma
+  \label{eq:ellip}
+\end{equation}
+
+the approximate relationship is a result of the weak limit ($\kappa << 1$). \autoref{eq:ellip} and \autoref{eq:kappagamma} demonstrate that by measuring the apparent shapes of lensed objects we are measuring information about the lensing potential and hence the matter overdensity \cite{rachel_2018,Hoekstra:2013gua,hoekstra}. In the next section we talk about how such measurements are made.
 
 \begin{figure}
     \begin{center}
