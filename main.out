@@ -9,11 +9,11 @@
 \BOOKMARK [3][-]{subsubsection.2.3.1}{Weak thin lens}{subsection.2.3}% 9
 \BOOKMARK [3][-]{subsubsection.2.3.2}{Differential deflection of adjacent light rays}{subsection.2.3}% 10
 \BOOKMARK [1][-]{section.3}{Measuring Shear \(Images to Catalogs\)}{}% 11
-\BOOKMARK [2][-]{subsubsection.3.0.1}{Object Detection and Deblending}{section.3}% 12
-\BOOKMARK [3][-]{subsubsection.3.0.2}{Point Spread Function}{subsubsection.3.0.1}% 13
-\BOOKMARK [3][-]{subsubsection.3.0.3}{Shape Extraction}{subsubsection.3.0.1}% 14
+\BOOKMARK [2][-]{subsubsection.3.0.1}{Object Detection}{section.3}% 12
+\BOOKMARK [3][-]{subsubsection.3.0.2}{Shape Extraction}{subsubsection.3.0.1}% 13
+\BOOKMARK [3][-]{subsubsection.3.0.3}{Point Spread Function}{subsubsection.3.0.1}% 14
 \BOOKMARK [1][-]{section.4}{Catalogs to Science}{}% 15
 \BOOKMARK [2][-]{subsection.4.1}{Cosmic Shear}{section.4}% 16
 \BOOKMARK [2][-]{subsection.4.2}{Tomography}{section.4}% 17
 \BOOKMARK [1][-]{section.5}{Weak Lensing Results}{}% 18
-\BOOKMARK [1][-]{section.6}{Problems With Weak Lensing}{}% 19
+\BOOKMARK [1][-]{section.6}{Problematic Systematics}{}% 19
