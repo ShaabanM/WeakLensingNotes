@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.19)  19 APR 2019 08:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.19)  19 APR 2019 12:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -580,51 +580,57 @@ Overfull \hbox (0.54692pt too wide) in paragraph at lines 28--29
  []
 
 [2] [3]
-<figs/lens.jpg, id=148, 2139.995pt x 1727.45375pt>
+<figs/lens.jpg, id=163, 2139.995pt x 1727.45375pt>
 File: figs/lens.jpg Graphic file (type jpg)
 <use figs/lens.jpg>
-Package pdftex.def Info: figs/lens.jpg  used on input line 128.
+Package pdftex.def Info: figs/lens.jpg  used on input line 126.
 (pdftex.def)             Requested size: 345.0pt x 278.48059pt.
- [4] [5 </home/shaaban/Work/Academic-Work/GR/WeakLensingProject/figs/lens.jpg>] [6]
-<figs/shear-11.jpg, id=189, 1885.0425pt x 844.15375pt>
+ [4 </home/shaaban/Work/Academic-Work/GR/WeakLensingProject/figs/lens.jpg>] [5]
+<figs/shear-11.jpg, id=195, 1885.0425pt x 844.15375pt>
 File: figs/shear-11.jpg Graphic file (type jpg)
 <use figs/shear-11.jpg>
-Package pdftex.def Info: figs/shear-11.jpg  used on input line 206.
+Package pdftex.def Info: figs/shear-11.jpg  used on input line 204.
 (pdftex.def)             Requested size: 345.0pt x 154.4915pt.
 ) (/home/shaaban/Work/Academic-Work/GR/WeakLensingProject/sections/shear.tex
+<figs/pipe.jpg, id=196, 250.41554pt x 134.06085pt>
+File: figs/pipe.jpg Graphic file (type jpg)
+<use figs/pipe.jpg>
+Package pdftex.def Info: figs/pipe.jpg  used on input line 6.
+(pdftex.def)             Requested size: 327.74895pt x 175.46756pt.
+
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 3.
+(hyperref)                than one, level fixed on input line 14.
 
-) [7 </home/shaaban/Work/Academic-Work/GR/WeakLensingProject/figs/shear-11.jpg>] (/home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.bbl [8]
+[6] [7 </home/shaaban/Work/Academic-Work/GR/WeakLensingProject/figs/shear-11.jpg> </home/shaaban/Work/Academic-Work/GR/WeakLensingProject/figs/pipe.jpg>]) [8] (/home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.bbl [9]
 Underfull \hbox (badness 10000) in paragraph at lines 92--95
 []\OT1/cmr/m/n/10 A.W. Peet.  Gen-eral Rel-a-tiv-ity Notes .  page
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
- [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
+ [10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
  (/home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0BFCD2E640B96BD8AD911256D31877B9;1158.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
+(rerunfilecheck)             Checksum: BDEC70414ACC90E6BDB66EDDC79B5573;1361.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
  ) 
 Here is how much of TeX's memory you used:
- 6404 strings out of 494880
- 91137 string characters out of 6179601
- 177593 words of memory out of 5000000
- 9597 multiletter control sequences out of 15000+600000
- 9369 words of font info for 34 fonts, out of 8000000 for 9000
+ 6423 strings out of 494880
+ 91392 string characters out of 6179601
+ 178746 words of memory out of 5000000
+ 9608 multiletter control sequences out of 15000+600000
+ 9668 words of font info for 35 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 28i,16n,28p,1202b,434s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,16n,30p,1202b,442s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.pdf (9 pages, 1144673 bytes).
+Output written on /home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.pdf (10 pages, 1772974 bytes).
 PDF statistics:
- 280 PDF objects out of 1000 (max. 8388607)
- 250 compressed objects within 3 object streams
- 65 named destinations out of 1000 (max. 500000)
- 139 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 305 PDF objects out of 1000 (max. 8388607)
+ 272 compressed objects within 3 object streams
+ 71 named destinations out of 1000 (max. 500000)
+ 168 words of extra memory for PDF output out of 10000 (max. 10000000)
 
