@@ -24,7 +24,33 @@ The fundamental assumption in cosmology, known as the cosmological principle, is
   \label{eq:friedman}
 \end{equation}
 
-were $H$ is hubble's constant and $\Omega_i$ is the normalized energy density of radiation, matter, space-time curvature, and Dark Energy at $z=0$. The parameter $\rho_\Lambda$ is theoretically predicted to be a constant, however, this prediction is yet to be experimentally confirmed as the evolution of Dark Energy is experimentally unconstrained. There have been a variety of methods proposed to probe this evolution, those methods are summarized in \cite{general_2013}. In essence all the probes simplify to te same concept; one uses an observable to track a cosmological distance as a function of redshift. Due to report size constraints we will not include a discussion on distance measures in cosmology as it has already been extensively discussed in class. For a complete summary of cosmological distances see \cite{Hogg:1999ad}. 
+were $H$ is hubble's constant and $\Omega_i$ is the normalized energy density of radiation, matter, space-time curvature, and Dark Energy at $z=0$. The parameter $\rho_\Lambda$ is theoretically predicted to be a constant, however, this prediction is yet to be experimentally confirmed as the evolution of Dark Energy is experimentally unconstrained \cite{general_2013}. There have been a variety of methods proposed to probe this evolution, those methods are summarized in \cite{eisen,general_2013}. In essence all the probes simplify to te same concept; one uses an observable to track a cosmological distance as a function of redshift. Due to report size constraints we will not include a discussion on distance measures in cosmology as it has already been extensively discussed in class. For a complete summary of cosmological distances see \cite{Hogg:1999ad}. We have shown in class that within the standard model of cosmology we expect energy density evolution to behave as follows
+
+\begin{equation}
+  \frac{\rho_i(z)}{\rho_i(0)} = (1+z)^{3(1+w)}
+  \label{eq:densevol}
+\end{equation}
+
+therefore, for a dark energy to be a constant $w=-1$. Thus, probing dark energy evolution in the simplest case amounts to constraining the parameter $w$. The probe of interest in this report, namely weak lensing, relays on the ability of cosmological theories to predict the large scale distribution of matter.
+
+\subsubsection{Matter Distribution}
+The standard model predicts that quantum fluctuations in the early universe became macroscopic due to inflation, and proceeded to act as gravitational seeds for the formation of large scale structure in the universe \cite{extragalactic,general_2013,ryden}. The gravitational evolution of those fluctuations follows linear perturbation theory \cite{general_2013}. The amplitude of the fluctuations is given by the density contrast 
+
+\begin{equation}
+  \delta(\vec{x},t) = \frac{\rho_m(\vec{x},t)-\left<\rho_m(t)\right>}{\left<\rho_m(t)\right>} = \delta(\vec{x},t_0) \frac{G(t)}{G(t_0)}
+  \label{eq:densitycontrast}
+\end{equation}
+
+were $t_0$ is some arbitrarily chosen initial time and $G(t)$ is the linear growth function obeying the differential equation 
+
+\begin{equation}
+  \ddot{G} + 2H(z)\dot{G} - \frac{3}{2} \Omega_m H_0^2(1+z)^3G = 0
+  \label{eq:growth}
+\end{equation}
+
+The solution to this equation can only be written in integral form from specific forms of $H$, and thus for specific forms of dark energy evolution models specifying $\rho_\Lambda(z)$ \cite{general_2013,ryden}. Finally, we note that the central limit theorem ensures that the distribution is a gaussian random field and therefore the statistical properties of the distribution completely described by its power spectrum. 
+
+\par To summarize, the evolution of dark energy directly influences the large scale distribution of matter, and the distribution's statistical properties are fully described by its power spectrum. Therefore, if we can directly measure the power spectrum of the matter distribution a likelihood analysis can be performed to constrain the evolution of dark energy.
  
 
 % \begin{enumerate}
@@ -34,8 +60,7 @@ were $H$ is hubble's constant and $\Omega_i$ is the normalized energy density of
 %   \item Gravitational Evolution of Dark matter
 %   \item Observables and Parameters
 % \end{enumerate}
-\subsubsection{Matter Power Spectrum}
-\cite{extragalactic}
+
 
 \subsection{Bending of Light}
 The fundamental concept on which weak lensing is built is gravity's ability to alter the path of a photon. This phenomenon is explored in full detail in \cite{GR1,basicLens,Mellier:1998pk}.

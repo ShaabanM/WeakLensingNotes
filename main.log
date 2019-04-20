@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.19)  20 APR 2019 14:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.19)  20 APR 2019 16:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -574,20 +574,20 @@ LaTeX Info: Redefining \nameref on input line 12.
 
  (/home/shaaban/Work/Academic-Work/GR/WeakLensingProject/sections/intro.tex) (/home/shaaban/Work/Academic-Work/GR/WeakLensingProject/sections/theory.tex [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-<figs/lens.jpg, id=162, 2139.995pt x 1727.45375pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
+<figs/lens.jpg, id=180, 2139.995pt x 1727.45375pt>
 File: figs/lens.jpg Graphic file (type jpg)
 <use figs/lens.jpg>
-Package pdftex.def Info: figs/lens.jpg  used on input line 123.
+Package pdftex.def Info: figs/lens.jpg  used on input line 148.
 (pdftex.def)             Requested size: 345.0pt x 278.48059pt.
- [4] [5 </home/shaaban/Work/Academic-Work/GR/WeakLensingProject/figs/lens.jpg>] [6]
-<figs/shear-11.jpg, id=203, 1885.0425pt x 844.15375pt>
+ [5 </home/shaaban/Work/Academic-Work/GR/WeakLensingProject/figs/lens.jpg>] [6]
+<figs/shear-11.jpg, id=211, 1885.0425pt x 844.15375pt>
 File: figs/shear-11.jpg Graphic file (type jpg)
 <use figs/shear-11.jpg>
-Package pdftex.def Info: figs/shear-11.jpg  used on input line 201.
+Package pdftex.def Info: figs/shear-11.jpg  used on input line 226.
 (pdftex.def)             Requested size: 345.0pt x 154.4915pt.
 ) (/home/shaaban/Work/Academic-Work/GR/WeakLensingProject/sections/shear.tex
-<figs/pipe.jpg, id=205, 250.41554pt x 134.06085pt>
+<figs/pipe.jpg, id=213, 250.41554pt x 134.06085pt>
 File: figs/pipe.jpg Graphic file (type jpg)
 <use figs/pipe.jpg>
 Package pdftex.def Info: figs/pipe.jpg  used on input line 6.
@@ -597,35 +597,35 @@ Package pdftex.def Info: figs/pipe.jpg  used on input line 6.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 14.
 
-[7 </home/shaaban/Work/Academic-Work/GR/WeakLensingProject/figs/shear-11.jpg>] [8 </home/shaaban/Work/Academic-Work/GR/WeakLensingProject/figs/pipe.jpg>]) (/home/shaaban/Work/Academic-Work/GR/WeakLensingProject/sections/science.tex) [9] (/home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.bbl [10]
-Underfull \hbox (badness 10000) in paragraph at lines 92--95
+[7] [8 </home/shaaban/Work/Academic-Work/GR/WeakLensingProject/figs/shear-11.jpg> </home/shaaban/Work/Academic-Work/GR/WeakLensingProject/figs/pipe.jpg>] [9]) (/home/shaaban/Work/Academic-Work/GR/WeakLensingProject/sections/science.tex) [10] (/home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.bbl [11]
+Underfull \hbox (badness 10000) in paragraph at lines 103--106
 []\OT1/cmr/m/n/10 A.W. Peet.  Gen-eral Rel-a-tiv-ity Notes .  page
  []
 
-)
+[12])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
- [11]
+ [13]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
  (/home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8E673B29AB37B32126833974E10D81DD;1350.
+(rerunfilecheck)             Checksum: FE78EB8E78B948AC3CFEBB1ED6E2747A;1348.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
- 6433 strings out of 494880
- 91632 string characters out of 6179601
- 178878 words of memory out of 5000000
- 9611 multiletter control sequences out of 15000+600000
+ 6456 strings out of 494880
+ 91948 string characters out of 6179601
+ 179156 words of memory out of 5000000
+ 9622 multiletter control sequences out of 15000+600000
  9668 words of font info for 35 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 28i,16n,30p,1202b,434s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,16n,30p,1202b,484s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.pdf (11 pages, 1778331 bytes).
+Output written on /home/shaaban/Work/Academic-Work/GR/WeakLensingProject/main.pdf (13 pages, 1784385 bytes).
 PDF statistics:
- 324 PDF objects out of 1000 (max. 8388607)
- 290 compressed objects within 3 object streams
- 75 named destinations out of 1000 (max. 500000)
+ 359 PDF objects out of 1000 (max. 8388607)
+ 322 compressed objects within 4 object streams
+ 87 named destinations out of 1000 (max. 500000)
  168 words of extra memory for PDF output out of 10000 (max. 10000000)
 
