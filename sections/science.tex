@@ -1,16 +1,31 @@
+After we have measured galaxy shapes to the necessary accuracy we need to extract cosmological data from our shape catalog. More specifically we want to be able to extract the density contrast power spectrum discussed in the Section 2. To do that we first note that in the weak limit we can use the 3D newtonian comoving poisson equation
+
+\begin{equation}
+    \nabla^2 \phi = \frac{3H_0 ^2\Omega_m }{2a} \delta
+    \label{eq:poisson}
+\end{equation}
+
+were $\delta$ is the density contrast defined in \autoref{eq:densitycontrast}. Therefore, we can rewrite the convergence as
+
 \begin{equation}
     \kappa = \frac{3H_0^2}{2c^2} \Omega_m \int_{0}^{\chi_s} d\chi  \frac{\chi (\chi_s-\chi)}{\chi_s} \frac{\delta(\chi)}{a}
     \label{eq:kappadelt}
 \end{equation}
 
-were $\chi$ is the comoving angular diameter distance and $a$ is the scale factor. \autoref{eq:kappadelt} shows that the convergence is a projection of the density contrast from \autoref{eq:densitycontrast} with the weight function 
+were $\chi$ is the comoving angular diameter distance and $a$ is the scale factor. \autoref{eq:kappadelt} shows that the convergence is a projection of the density contrast with the weight function 
 
 \begin{equation}
     w(\chi) = \frac{3H_0^2 \Omega_m \chi (\chi - \chi_s)}{2 c^2 \chi_s a}
     \label{eq:weight}
 \end{equation}
 
-thus the convergence power spectrum is determined by the integral over the line of sight of the density contrast power spectrum\cite{Hoekstra:2013gua,rachel_2018,Bartelmann:2016dvf}.
+thus, the convergence power spectrum is determined by the integral over the line of sight of the density contrast power spectrum\cite{Hoekstra:2013gua,rachel_2018,Bartelmann:2016dvf}. More specifically, the convergence power spectrum can be written as 
+
+\begin{equation}
+    C_k(l) = \frac{9}{4} \left(\frac{H_0}{c}\right)^4\Omega_m^2 \sigma_8^2 \int^{\chi_s}_0 d \chi \left[\frac{D_+(a)\chi (\chi_s-\chi)^2}{a \chi_s}\right] \mathcal{P}\left(\frac{1}{\chi}\right)
+    \label{eq:convergencespectrum}
+\end{equation}
+
 
 Convergence power spectrum is identical to shear power spectrum therfore shear power spectrum gives us everything we need
 
@@ -23,5 +38,5 @@ Born approximation from \cite{Bartelmann:2016dvf}
 \subsection{Cosmic Shear}
 
 \subsection{Cosmic Tomography}
-For current and future surveys, one goal is to use the redshifts of the background galaxies (often approximated using photometric redshifts) to divide the survey into multiple redshift bins. The low-redshift bins will only be lensed by structures very near to us, while the high-redshift bins will be lensed by structures over a wide range of redshift. This technique, dubbed "cosmic tomography", makes it possible to map out the 3D distribution of mass. Because the third dimension involves not only distance but cosmic time, tomographic weak lensing is sensitive not only to the matter power spectrum today, but also to its evolution over the history of the universe, and the expansion history of the universe during that time. This is a much more valuable cosmological probe, and many proposed experiments to measure the properties of dark energy and dark matter have focused on weak lensing, such as the Dark Energy Survey, Pan-STARRS, and Large Synoptic Survey Telescope.
+For current and future surveys, one goal is to use the redshifts of the background galaxies to divide the survey into multiple redshift bins. The low-redshift bins will only be lensed by structures very near to us, while the high-redshift bins will be lensed by structures over a wide range of redshift. This technique, dubbed "cosmic tomography", makes it possible to map out the 3D distribution of mass. Because the third dimension involves not only distance but cosmic time, tomographic weak lensing is sensitive not only to the matter power spectrum today,but also to its evolution over the history of the universe, and the expansion history of the universe during that time.
 \cite{lensingbook} \cite{rachel_2018} \cite{hoekstra}
