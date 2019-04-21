@@ -29,7 +29,7 @@ thus, the convergence power spectrum is determined by the integral over the line
     \label{eq:convergencespectrum}
 \end{equation}
 
-\autoref{eq:convergencespectrum} shows that the shape of $C_\kappa$ depends on the shape $\mathcal{P}$ of the density contrast power spectrum and thus can be inferred from a measurement of the convergence power spectrum. The growth factor $G$ can also be measured to give us information of on the evolution of structure growth with time. Finally, while we set out to measure the influence of dark energy on structure formation \autoref{eq:convergencespectrum} allows us to additionally constrain the cosmological parameters $\Omega_m$ and $\sigma_8$ up to a degeneracy. The degeneracy is physically interpreted as weak lensing inability to differentiate between low density highly clumped matter and weakly clumped high density matter. 
+\autoref{eq:convergencespectrum} shows that the shape of $C_\kappa$ depends on the shape $\mathcal{P}$ of the density contrast power spectrum and thus can be inferred from a measurement of the convergence power spectrum. The growth factor $G$ can also be measured to give us information of on the evolution of structure growth with time. Finally, while we set out to measure the influence of dark energy on structure formation \autoref{eq:convergencespectrum} allows us to additionally constrain the cosmological parameters $\Omega_m$ and $\sigma_8$ up to a degeneracy. The degeneracy is physically interpreted as weak lensing inability to differentiate between low density highly clumped matter and weakly clumped high density matter \cite{general_2013,Bartelmann:2016dvf}. 
 
 \subsection{Cosmic Shear}
 In the previous subsection we showed that if we could measure the convergence power spectrum then we will have achieved our scientific goal. However, you might notice that we never discussed measuring convergence, we only explained shear measurements. The reason is that measuring the convergence is significantly more challenging than measuring the shear. But, it turns out that the convergence power spectrum is identical to shear power spectrum, therefore, our shear data suffices. To prove the statement let us begin by taking the fourier transform of \autoref{eq:kappagamma}, the result is 
@@ -43,28 +43,20 @@ In the previous subsection we showed that if we could measure the convergence po
     \label{eq:fouriertrans}
 \end{equation}
 
-were the hat indicates the fourier transform of the function. \autoref{eq:fouriertrans} allows us to investigate the power 
+were the hat indicates the fourier transform of the function. \autoref{eq:fouriertrans} allows us to investigate the magnitude of the functions, we find that
 
 \begin{equation}
     4|\hat{\gamma}| = |\hat{\Phi}|^2 \left(l_1^2+l_2^2\right)^2 = 4 |\hat{\kappa}|^2
     \label{eq:fourierspace}
 \end{equation}
 
-this shows that the shear power spectrum $C_\gamma$ is the same as the convergence power spectrum $C_\kappa$.
+The power spectrum of a gaussian field depends exclusively on the magnitude therefore \autoref{eq:fourierspace} shows that the shear power spectrum $C_\gamma$ is the same as the convergence power spectrum $C_\kappa$ \cite{Bartelmann:2016dvf,Hoekstra:2013gua,rachel_2018,general_2013}. The shear power spectrum is simply the fourier transform of the two point correlation function given by 
 
 \begin{equation}
-    C_\gamma = C_\kappa
-    \label{eq:convergenceshear}
+    \xi_{ij} = \left< \gamma_i \cdot \gamma_j^*\right> 
+    \label{eq:2ptcorrelation}
 \end{equation}
 
-\begin{enumerate}
-    \item how kappa relates to cosmology
-    \item how power spectrum is all you need 
-    \item how kappa and gamma have same power spectrum
-\end{enumerate}
-Born approximation from \cite{Bartelmann:2016dvf}
+were $i$ and $j$ are redshift bin indices. This two point correlation is the so called "cosmic shear" and is physically the correlation between shears separated by an angular mode on the sky, i.e. if some image distortion by lensing is measured in one particular direction the image distortion nearby should be more similar and thus more correlated than a distortion far away. For a more in depth discussion on cosmic shear please see \cite{lensingbook,general_2013,Hoekstra:2013gua,Bartelmann:2016dvf}.
 
-
-\subsection{Cosmic Tomography}
-For current and future surveys, one goal is to use the redshifts of the background galaxies to divide the survey into multiple redshift bins. The low-redshift bins will only be lensed by structures very near to us, while the high-redshift bins will be lensed by structures over a wide range of redshift. This technique, dubbed "cosmic tomography", makes it possible to map out the 3D distribution of mass. Because the third dimension involves not only distance but cosmic time, tomographic weak lensing is sensitive not only to the matter power spectrum today,but also to its evolution over the history of the universe, and the expansion history of the universe during that time.
-\cite{lensingbook} \cite{rachel_2018} \cite{hoekstra}
+ \par The above discussion is the extraction procedure for ideal data. Working with real data is more challenging and requires the development of more tools, due to report size constraints we will not be presenting any further analysis techniques.
